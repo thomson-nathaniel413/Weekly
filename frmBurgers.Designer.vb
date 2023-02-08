@@ -85,7 +85,7 @@ Partial Class frmBurgers
         Me.btnVeggie.Name = "btnVeggie"
         Me.btnVeggie.Size = New System.Drawing.Size(128, 35)
         Me.btnVeggie.TabIndex = 5
-        Me.btnVeggie.Text = "Button3"
+        Me.btnVeggie.Text = "Veggie"
         Me.btnVeggie.UseVisualStyleBackColor = True
         '
         'lblInstructions
