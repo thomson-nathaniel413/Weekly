@@ -18,13 +18,14 @@ Public Class frmBurgers
         'When this button is clicked, several things will occur:
         'lblInstructions should be made invisible
         'lblConfirmation should be made visible
-        'btnPrime and btnVeggie should both be disabled
+        'btnPrime, btnVeggie, and btnSelectMeal should all be disabled
         'btnExit should be enabled
         lblInstructions.Visible = False
         lblConfirmation.Visible = True
         btnPrime.Enabled = False
         btnVeggie.Enabled = False
         btnExit.Enabled = True
+        btnSelectMeal.Enabled = False
     End Sub
 
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
