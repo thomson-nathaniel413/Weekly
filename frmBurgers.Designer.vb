@@ -56,6 +56,7 @@ Partial Class frmBurgers
         Me.picPrime.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picPrime.TabIndex = 1
         Me.picPrime.TabStop = False
+        Me.picPrime.Visible = False
         '
         'picVeggie
         '
@@ -66,6 +67,7 @@ Partial Class frmBurgers
         Me.picVeggie.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picVeggie.TabIndex = 2
         Me.picVeggie.TabStop = False
+        Me.picVeggie.Visible = False
         '
         'btnPrime
         '
@@ -81,6 +83,7 @@ Partial Class frmBurgers
         'btnSelectMeal
         '
         Me.btnSelectMeal.BackColor = System.Drawing.Color.Wheat
+        Me.btnSelectMeal.Enabled = False
         Me.btnSelectMeal.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnSelectMeal.Location = New System.Drawing.Point(328, 335)
         Me.btnSelectMeal.Name = "btnSelectMeal"
@@ -119,10 +122,12 @@ Partial Class frmBurgers
         Me.lblConfirmation.Size = New System.Drawing.Size(210, 22)
         Me.lblConfirmation.TabIndex = 7
         Me.lblConfirmation.Text = "Enjoy your burger special"
+        Me.lblConfirmation.Visible = False
         '
         'btnExit
         '
         Me.btnExit.BackColor = System.Drawing.Color.Wheat
+        Me.btnExit.Enabled = False
         Me.btnExit.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnExit.Location = New System.Drawing.Point(328, 466)
         Me.btnExit.Name = "btnExit"
